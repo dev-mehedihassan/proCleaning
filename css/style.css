@@ -76,6 +76,60 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Navbar Section Style End ====== */
 
 /* ====== Banner Section Style Start ====== */
+#banner{
+    padding: 104px 0;
+    height: 80vh;
+    background: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_content span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #111D15;
+}
+
+.banner_content h1{
+    width: 610px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 115%;
+    color: #111D15;
+    margin-top: 12px;
+}
+
+.banner_content p{
+    width: 543px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.banner_actions{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    transition: all linear 0.3s;
+}
+
+.banner_actions .common_Btn:nth-child(2) {
+    border: 1px solid #666666;
+    background: transparent;
+    color: #111D15;
+}
+
+.banner_actions .common_Btn:hover{
+    border: 1px solid #666666;
+    background: transparent;
+    color: #36B864;
+}
 /* ====== Banner Section Style End ====== */
 
 /* ====== Service Section Style Start ====== */

@@ -249,3 +249,53 @@ h1,h2,h3,h4,h5,h6,p{
     color: #FFFFFF;   
 }
 /* ====== Service Section Style End ====== */
+
+/* ====== Service Section Style Start ====== */
+#solutions{
+    padding: 75px 0;
+}
+
+.solutions_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.solutions_content{
+    margin-top: 47px;
+}
+
+.solutions_content .subTitle{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #111D15;
+}
+
+.solutions_content h3{
+    width: 527px;
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 120%;
+    color: #111D15;
+    margin-top: 24px;
+}
+
+.solutions_content h3 span{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.solutions_content p{
+    width: 516px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666666;
+    margin-top: 32px;
+    margin-bottom: 52px;
+}
+/* ====== Service Section Style End ====== */

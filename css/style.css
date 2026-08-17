@@ -4,25 +4,75 @@
     box-sizing: border-box;
     font-family: "Be Vietnam Pro", sans-serif;
 }
+
 ul,ol,dl{
     list-style-type: none;
 }
+
 a{
     text-decoration: none;
 }
+
 h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     margin: 0;
     line-height: 0.8;
 }
+
 .container{
     width: 1170px;
     margin: 0 auto;
+}
+
+.common_Btn{
+    padding: 12px 32px;
+    border: none;
+    border-radius: 6px;
+    background: #36B864;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all linear 0.3s;
+}
+
+.common_Btn:hover{
+    background: #FFFFFF;
+    color: #36B864;
 }
 /* font-family: "Lato", sans-serif; */
 /* font-family: "Poppins", sans-serif; */
 /* font-family: "Outfit", sans-serif; */
 /* ====== Navbar Section Style Start ====== */
+#navbar{
+    padding: 24px 0;
+}
+
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    column-gap: 29px;
+}
+
+.menu ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+    transition: all linear 0.3s;
+}
+
+.menu ul li a:hover{
+    font-weight: 500;
+    color: #36B864;
+}
 /* ====== Navbar Section Style End ====== */
 
 /* ====== Banner Section Style Start ====== */

@@ -335,3 +335,126 @@ h1,h2,h3,h4,h5,h6,p{
   object-fit: cover;
 }
 /* ====== Solutions Section Style End ====== */
+
+/* ====== Team Section Style Start ====== */
+#team{
+    padding: 56px 0;
+}
+
+.team_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team_title h2{
+    width: 590px;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 120%;
+    color: #111D15;
+}
+
+.team_subtitle{
+    width: 365px;
+}
+
+.team_subtitle{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+.team_subtitle span{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #111D15;
+}
+
+.team_subtitle p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.team_line{
+    width: 100%;
+    height: 1px;
+    background: #83A790;
+    margin: 30px 0;
+}
+
+.team_card_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 22.5px;
+}
+
+.team_card{
+    width: 278px;
+    transition: all linear 0.3s;
+}
+
+.team_card:hover{
+    border: 1px solid #83A790;
+    border-radius: 15px;
+}
+
+.team_card_image{
+    width: 278px;
+    height: 225px;
+    border-radius: 30px;
+}
+
+.team_card_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team_card_content{
+    padding: 0 15px 39px;
+}
+
+.team_card_content h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: #111D15;
+    margin-top: 18px;
+}
+
+.star_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 12px;
+}
+
+.star_wrapper i{
+    font-size: 13.5px;
+    color: #FF9800;
+}
+
+.team_card_content p{
+    width: 225px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #666666;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.social_icons{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.social_icons i{
+    font-size: 16px;
+}
+/* ====== Team Section Style End ====== */

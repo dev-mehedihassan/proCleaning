@@ -981,3 +981,137 @@ h1,h2,h3,h4,h5,h6,p{
     color: #FFFFFF;
 }
 /* ====== Blog Section Style End ====== */
+
+/* ====== Contact Section Style Start ====== */
+#contact {
+    padding: 80px 0 100px 0;
+    background: #FFFFFF;
+}
+
+.contact_left_title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #111D15;
+    margin-bottom: 30px;
+}
+
+.info_card_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info_card {
+    background: #F8FAF9;
+    border-radius: 16px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all linear 0.3s;
+}
+
+.info_card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+.info_card_icon {
+    width: 52px;
+    height: 52px;
+    background: #36B864;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.info_card_content h3 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #111D15;
+    margin-bottom: 4px;
+}
+
+.info_card_content p {
+    font-size: 14px;
+    color: #888888;
+    margin: 0;
+}
+
+.contact_form_header {
+    margin-bottom: 24px;
+}
+
+.contact_subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111D15;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.contact_right_title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #111D15;
+    margin-bottom: 12px;
+}
+
+.contact_desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #888888;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form_control {
+    width: 100%;
+    padding: 14px 18px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #111D15;
+    outline: none;
+    transition: all linear 0.3s;
+}
+
+.form_control::placeholder {
+    color: #A0A0A0;
+}
+
+.form_control:focus {
+    border-color: #36B864;
+}
+
+textarea.form_control {
+    resize: none;
+}
+
+.submit_btn {
+    align-self: flex-start;
+    padding: 12px 28px;
+    background: #36B864;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.submit_btn:hover {
+    background: #2da155;
+}
+/* ====== Contact Section Style End ====== */

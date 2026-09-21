@@ -1115,3 +1115,112 @@ textarea.form_control {
     background: #2da155;
 }
 /* ====== Contact Section Style End ====== */
+
+/* ====== Footer Section Style Start ====== */
+#footer {
+    background: #0E1A13;
+    color: #FFFFFF;
+}
+
+.footer_top {
+    padding: 80px 0 30px 0;
+}
+
+.footer_about .footer_logo img {
+    max-width: 180px;
+    margin-bottom: 24px;
+}
+
+.footer_desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #A3B1A8;
+    max-width: 320px;
+}
+
+.footer_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer_links ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer_links ul li a {
+    font-size: 14px;
+    color: #A3B1A8;
+    transition: all linear 0.3s;
+}
+
+.footer_links ul li a:hover {
+    color: #36B864;
+}
+
+.footer_newsletter .newsletter_form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 260px;
+}
+
+.footer_newsletter .input_wrapper input {
+    width: 100%;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #2B3A31;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #FFFFFF;
+    outline: none;
+    transition: all linear 0.3s ;
+}
+
+.footer_newsletter .input_wrapper input::placeholder {
+    color: #6C7D73;
+}
+
+.footer_newsletter .input_wrapper input:focus {
+    border-color: #36B864;
+}
+
+.newsletter_btn {
+    padding: 10px 24px;
+    background: #36B864;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: all linear 0.3s;
+}
+
+.newsletter_btn:hover {
+    background: #2da155;
+}
+
+.footer_divider {
+    width: 100%;
+    height: 1px;
+    background: #1F2D25;
+    margin-top: 50px;
+}
+
+.footer_bottom {
+    padding: 20px 0 25px 0;
+}
+
+.copyright_text {
+    font-size: 14px;
+    color: #A3B1A8;
+    margin: 0;
+}
+/* ====== Footer Section Style End ====== */

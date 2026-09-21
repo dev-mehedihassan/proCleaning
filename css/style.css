@@ -9,25 +9,22 @@ ul,ol,dl{
     list-style-type: none;
 }
 
-a{
+a, a:hover{
+    display: inline-block;
     text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     margin: 0;
-    line-height: 0.8;
-}
-
-.container{
-    width: 1170px;
-    margin: 0 auto;
+    line-height: 1.4;
 }
 
 .common_Btn{
     padding: 12px 32px;
     border: none;
     border-radius: 6px;
+    border: 1px solid #36B864;
     background: #36B864;
     color: #FFFFFF;
     font-family: "Poppins", sans-serif;
@@ -45,23 +42,16 @@ h1,h2,h3,h4,h5,h6,p{
 /* font-family: "Poppins", sans-serif; */
 /* font-family: "Outfit", sans-serif; */
 /* ====== Navbar Section Style Start ====== */
-#navbar{
+/* ====== Navbar Section Style Start ====== */
+#navbar {
     padding: 24px 0;
 }
 
-.nav_wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.menu ul{
-    display: flex;
-    align-items: center;
+.navbar-nav {
     column-gap: 29px;
 }
 
-.menu ul li a{
+.navbar-nav .nav-item .nav-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -69,8 +59,8 @@ h1,h2,h3,h4,h5,h6,p{
     transition: all linear 0.3s;
 }
 
-.menu ul li a:hover{
-    font-weight: 500;
+.navbar-nav .nav-item .nav-link:hover {
+  font-weight: 500;
     color: #36B864;
 }
 /* ====== Navbar Section Style End ====== */

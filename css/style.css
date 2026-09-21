@@ -450,3 +450,143 @@ h1,h2,h3,h4,h5,h6,p{
     color: #36B864;
 }
 /* ====== Expert Team Section Style End ====== */
+
+/* ====== About Us Section Style Start ====== */
+#about {
+    padding: 56.25px 0;
+}
+
+.align_items_center {
+    display: flex;
+    align-items: center;
+}
+
+.about_image_wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 401.25px;
+    height: 331.5px;
+}
+
+.about_img_main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 274.22px;
+    height: 295.5px;
+    overflow: hidden;
+}
+
+.about_img_main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_img_overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 173.07px;
+    height: 198.75px;
+    overflow: hidden;
+}
+
+.about_img_overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_content {
+    max-width: 394px;
+    padding-left: 30px;
+}
+
+.about_content h2 {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 120%;
+    color: #111D15;
+}
+
+.about_desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    color: #666666;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.feature_list {
+    row-gap: 12px;
+    margin-bottom: 36px;
+}
+
+.feature_item {
+    background: #F5F4F4;
+    padding: 7.5px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.feature_item i {
+    font-size: 16px;
+    color: #36B864;
+}
+
+.feature_item span {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    color: #111D15;
+}
+
+.about_actions {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+
+.btn_green {
+    background: #36B864;
+    color: #FFFFFF;
+    border: 1px solid #36B864;
+    border-radius: 4.5px;
+    padding: 9px 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    transition: all linear 0.3s;
+}
+
+.btn_green:hover {
+    background: transparent;
+    color: #111D15;
+    border: 1px solid #111D15;
+}
+
+.btn_outline {
+    background: transparent;
+    color: #111D15;
+    border: 1px solid #111D15;
+    border-radius: 4.5px;
+    padding: 9px 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    transition: all linear 0.3s;
+}
+
+.btn_outline:hover {
+    background: #36B864;
+    color: #FFFFFF;
+    border: 1px solid #36B864;
+}
+/* ====== About Section Style End ====== */

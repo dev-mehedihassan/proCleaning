@@ -125,17 +125,18 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Banner Section Style End ====== */
 
 /* ====== Service Section Style Start ====== */
-#service{
+/* ====== Service Section Style Start ====== */
+#service {
     padding: 150px 0 75px 0;
 }
 
-.service_title{
+.service_title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.service_title h2{
+.service_title h2 {
     width: 536px;
     font-weight: 600;
     font-size: 44px;
@@ -143,58 +144,52 @@ h1,h2,h3,h4,h5,h6,p{
     color: #111D15;
 }
 
-.service_subtitle{
+.service_subtitle {
     width: 433px;
-}
-
-.service_subtitle{
     display: flex;
     flex-direction: column;
     row-gap: 12px;
 }
-.service_subtitle span{
+
+.service_subtitle span {
     font-weight: 600;
     font-size: 20px;
     line-height: 25px;
     color: #111D15;
 }
 
-.service_subtitle p{
+.service_subtitle p {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #666666;
 }
 
-.service_line{
+.service_line {
     width: 100%;
     height: 1px;
     background: #83A790;
     margin: 40px 0;
 }
 
-.service_card_wrapper{
-    display: flex;
-    align-items: center;
-    column-gap: 30px;
-}
-.service_card{
+.service_card {
     width: 370px;
+    margin-right: 30px;
 }
 
-.service_card_image{
+.service_card_image {
     width: 370px;
     height: 262px;
     border-radius: 30px;
 }
 
-.service_card_img{
+.service_card_image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.service_card_content h3{
+.service_card_content h3 {
     font-weight: 600;
     font-size: 24px;
     line-height: 120%;
@@ -202,7 +197,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 16px;
 }
 
-.service_card_content p{
+.service_card_content p {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -211,7 +206,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 24px;
 }
 
-.service_card .common_Btn{
+.service_btn {
     padding: 12px 20px;
     background: #FFFFFF;
     color: #111D15;
@@ -225,20 +220,20 @@ h1,h2,h3,h4,h5,h6,p{
     transition: all linear 0.3s;
 }
 
-.service_card .common_Btn i{
+.service_btn i {
     color: #9D9D9D;
     transform: rotate(-45deg);
     transition: all linear 0.3s;
 }
 
-.service_card .common_Btn:hover{
+.service_btn:hover {
     background: #36B864;
     color: #FFFFFF;
-    border: none;
+    border: transparent;
 }
 
-.service_card .common_Btn i:hover{
-    color: #FFFFFF;   
+.service_btn:hover i {
+    color: #FFFFFF;
 }
 /* ====== Service Section Style End ====== */
 
